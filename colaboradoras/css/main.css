@@ -1,0 +1,39 @@
+body{
+  background-color: #FFFFFF;
+  font-family: 'Barlow', sans-serif; /*Usando la fuente de google fonts*/
+  font-weight: bold;
+  margin-left: 10%;
+}
+/*Dandole el formato a la etiqueta hr, estableciendo width para el tamaño */
+hr{
+  background: black;
+  height: 6px;
+  margin-left: 0%;
+  width: 70px;
+}
+h3 {
+  font-family: 'Arvo', serif;
+}
+/*Estableciento elformato de los div, primero se le pone un display inline block para que tome propiedades del block y poder manipular sus margenes, e inline para que se acomode uno detras de otro  */
+div{
+  display: inline-block;
+  margin-left: -11%;
+  margin-right: 6%;
+  margin-top: 3%;
+  width: 33%;
+}
+/* Al igual que a la etiqueta div se le da un display de inline-block para poder ajustar los margenes, y se le otrorga una position relative para que sirva de base para el elemento posterior */
+div>img {
+  border-top: 30%;
+  display: inline-block;
+  margin-left: 20%;
+  position: relative;
+}
+/* Al igual que los elementos anteriores se le otroga el display inline-block y una position absolute para que pueda manipular al elemento y acomodarlo de forma que sea visible encima de la imagen. */
+.name{
+  color: #fff;
+  display: inline-block;
+  margin-left: -15%;
+  margin-top: 20%;
+  position: absolute;
+}
